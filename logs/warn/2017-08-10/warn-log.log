@@ -1,0 +1,181 @@
+2017-08-10 13:59:12.383 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 13:59:26.319 WARN  com.datastax.driver.core.RequestHandler - Not retrying statement because it is not idempotent (this message will be logged only once). Note that this version of the driver changes the default retry behavior for non-idempotent statements: they won't be automatically retried anymore. The driver marks statements non-idempotent by default, so you should explicitly call setIdempotent(true) if your statements are safe to retry. See http://goo.gl/4HrSby for more details.
+2017-08-10 14:44:46.835 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 14:45:00.651 WARN  com.datastax.driver.core.RequestHandler - Not retrying statement because it is not idempotent (this message will be logged only once). Note that this version of the driver changes the default retry behavior for non-idempotent statements: they won't be automatically retried anymore. The driver marks statements non-idempotent by default, so you should explicitly call setIdempotent(true) if your statements are safe to retry. See http://goo.gl/4HrSby for more details.
+2017-08-10 14:45:30.857 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 14:45:44.859 WARN  com.datastax.driver.core.RequestHandler - Not retrying statement because it is not idempotent (this message will be logged only once). Note that this version of the driver changes the default retry behavior for non-idempotent statements: they won't be automatically retried anymore. The driver marks statements non-idempotent by default, so you should explicitly call setIdempotent(true) if your statements are safe to retry. See http://goo.gl/4HrSby for more details.
+2017-08-10 15:10:12.285 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 15:10:25.794 WARN  com.datastax.driver.core.RequestHandler - Not retrying statement because it is not idempotent (this message will be logged only once). Note that this version of the driver changes the default retry behavior for non-idempotent statements: they won't be automatically retried anymore. The driver marks statements non-idempotent by default, so you should explicitly call setIdempotent(true) if your statements are safe to retry. See http://goo.gl/4HrSby for more details.
+2017-08-10 15:11:45.168 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 15:13:38.413 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 15:13:52.071 WARN  com.datastax.driver.core.RequestHandler - Not retrying statement because it is not idempotent (this message will be logged only once). Note that this version of the driver changes the default retry behavior for non-idempotent statements: they won't be automatically retried anymore. The driver marks statements non-idempotent by default, so you should explicitly call setIdempotent(true) if your statements are safe to retry. See http://goo.gl/4HrSby for more details.
+2017-08-10 15:14:24.288 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 15:16:52.040 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 15:17:03.879 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 15:41:21.109 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 15:44:51.768 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 16:11:10.304 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 16:11:12.305 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.108:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 16:12:46.531 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 16:12:47.464 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.108:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 16:12:49.331 WARN  com.datastax.driver.core.Session - Error creating pool to /192.168.8.106:9042
+com.datastax.driver.core.exceptions.ConnectionException: [/192.168.8.106:9042] Pool was closed during initialization
+	at com.datastax.driver.core.HostConnectionPool$2.onSuccess(HostConnectionPool.java:148) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at com.datastax.driver.core.HostConnectionPool$2.onSuccess(HostConnectionPool.java:134) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$6.run(Futures.java:1319) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:185) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$CombinedFuture.setOneValue(Futures.java:1764) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$CombinedFuture.access$400(Futures.java:1608) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$CombinedFuture$2.run(Futures.java:1686) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:185) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$FallbackFuture$1$1.onSuccess(Futures.java:479) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$6.run(Futures.java:1319) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$ImmediateFuture.addListener(Futures.java:106) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures.addCallback(Futures.java:1322) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$FallbackFuture$1.onFailure(Futures.java:476) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$6.run(Futures.java:1310) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:202) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$FallbackFuture$1$1.onFailure(Futures.java:487) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$6.run(Futures.java:1310) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.add(ExecutionList.java:101) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:170) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures.addCallback(Futures.java:1322) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$FallbackFuture$1.onFailure(Futures.java:476) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$6.run(Futures.java:1310) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:202) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$ChainingListenableFuture.run(Futures.java:902) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$1$1.run(Futures.java:635) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$1.run(Futures.java:632) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:202) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.SettableFuture.setException(SettableFuture.java:68) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:166) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:149) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:507) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:500) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:479) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:420) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:122) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:327) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:343) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:630) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:565) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:479) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:441) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2017-08-10 16:31:53.798 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 16:31:55.842 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.108:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 16:45:19.362 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 16:45:21.613 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.108:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 16:50:22.497 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 16:50:23.452 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.106:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 16:50:23.454 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.109:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:03:37.626 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 17:03:38.822 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.106:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:03:38.824 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.109:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:07:01.576 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 17:07:02.484 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.106:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:07:02.486 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.109:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:12:26.699 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 17:12:27.857 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.108:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:12:40.233 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.106:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:12:40.233 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.109:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:12:40.234 WARN  com.datastax.driver.core.ControlConnection - Cannot find Cassandra version for host /192.168.8.108:9042 to parse the schema, using 2.2.0 based on protocol version in use. If parsing the schema fails, this could be the cause
+2017-08-10 17:16:29.592 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 17:16:31.806 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.108:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:55:08.228 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 17:55:10.150 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.106:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:55:10.150 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.109:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:56:23.776 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 17:56:25.636 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.106:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:56:25.636 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.109:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:57:54.575 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 17:57:55.372 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.106:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:57:55.372 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.109:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:58:59.519 WARN  com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2017-08-10 17:59:00.347 WARN  com.datastax.driver.core.Cluster - You listed /192.168.8.108:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2017-08-10 17:59:02.066 WARN  com.datastax.driver.core.Session - Error creating pool to /192.168.8.106:9042
+com.datastax.driver.core.exceptions.ConnectionException: [/192.168.8.106:9042] Pool was closed during initialization
+	at com.datastax.driver.core.HostConnectionPool$2.onSuccess(HostConnectionPool.java:148) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at com.datastax.driver.core.HostConnectionPool$2.onSuccess(HostConnectionPool.java:134) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$6.run(Futures.java:1319) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:185) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$CombinedFuture.setOneValue(Futures.java:1764) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$CombinedFuture.access$400(Futures.java:1608) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$CombinedFuture$2.run(Futures.java:1686) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:185) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$FallbackFuture$1$1.onSuccess(Futures.java:479) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$6.run(Futures.java:1319) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$ImmediateFuture.addListener(Futures.java:106) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures.addCallback(Futures.java:1322) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$FallbackFuture$1.onFailure(Futures.java:476) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$6.run(Futures.java:1310) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:202) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$FallbackFuture$1$1.onFailure(Futures.java:487) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$6.run(Futures.java:1310) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.add(ExecutionList.java:101) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:170) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures.addCallback(Futures.java:1322) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$FallbackFuture$1.onFailure(Futures.java:476) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$6.run(Futures.java:1310) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:202) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$ChainingListenableFuture.run(Futures.java:902) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$1$1.run(Futures.java:635) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.Futures$1.run(Futures.java:632) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:145) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:202) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at shade.com.datastax.spark.connector.google.common.util.concurrent.SettableFuture.setException(SettableFuture.java:68) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:166) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at com.datastax.driver.core.Connection$1.operationComplete(Connection.java:149) [spark-cassandra-connector_2.11-2.0.2.jar:2.0.2]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:507) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:500) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:479) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:420) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:122) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:327) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:343) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:630) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:565) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:479) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:441) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.8.Final.jar:4.1.8.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]

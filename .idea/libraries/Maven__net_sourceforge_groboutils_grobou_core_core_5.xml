@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.sourceforge.groboutils:grobou-core:core:5">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/groboutils/grobou-core/5/grobou-core-5-core.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/groboutils/grobou-core/5/grobou-core-5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/groboutils/grobou-core/5/grobou-core-5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

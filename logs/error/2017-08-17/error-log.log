@@ -1,0 +1,115 @@
+2017-08-17 13:37:46.918 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abc-B1mh2Fb409gx7SU3v
+2017-08-17 13:37:49.616 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abc-B1mh2Fb409gx7SU3v
+2017-08-17 13:49:33.684 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abckfOQsntK6W798NVU3v
+2017-08-17 13:49:35.899 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abckfOQsntK6W798NVU3v
+2017-08-17 13:52:09.300 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcpXC3hNG-i0fI8nWU3v
+2017-08-17 13:52:13.648 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcpXC3hNG-i0fI8nWU3v
+2017-08-17 13:54:32.676 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 本应该的长度为：857747512
+2017-08-17 13:54:32.676 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 收到的长度为：857747512
+2017-08-17 13:54:32.676 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 13:54:33.874 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 13:54:33.874 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 13:54:33.874 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 本应该的长度为：8
+2017-08-17 13:54:33.874 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 收到的长度为：8
+2017-08-17 13:54:33.874 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 13:54:33.890 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 13:54:33.890 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 13:54:33.890 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 本应该的长度为：8
+2017-08-17 13:54:33.890 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 收到的长度为：8
+2017-08-17 13:54:33.890 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 13:55:45.496 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 13:55:45.496 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 13:55:45.496 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 本应该的长度为：8
+2017-08-17 13:55:45.496 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 收到的长度为：8
+2017-08-17 13:55:45.496 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 13:56:29.937 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 13:56:29.937 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 13:56:29.937 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 本应该的长度为：8
+2017-08-17 13:56:29.937 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 收到的长度为：8
+2017-08-17 13:56:29.937 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 13:59:04.050 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 13:59:04.050 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 13:59:04.050 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 本应该的长度为：8
+2017-08-17 13:59:04.050 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 收到的长度为：8
+2017-08-17 13:59:04.050 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 13:59:04.066 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 13:59:04.066 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 13:59:04.066 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 本应该的长度为：8
+2017-08-17 13:59:04.066 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 收到的长度为：8
+2017-08-17 13:59:04.066 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 13:59:04.847 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 13:59:04.847 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 13:59:04.847 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 本应该的长度为：8
+2017-08-17 13:59:04.847 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 收到的长度为：8
+2017-08-17 13:59:04.847 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - 出现包解析异常
+2017-08-17 14:08:07.951 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcgGMi_bejDiba33ZU3v
+2017-08-17 14:08:09.759 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcgGMi_bejDiba33ZU3v
+2017-08-17 14:08:35.167 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 14:10:11.634 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 14:35:24.377 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abctAAHak7gO8g6zh6U3v
+2017-08-17 14:35:24.462 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abctAAHak7gO8g6zh6U3v
+2017-08-17 14:35:56.720 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 14:40:06.807 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcvqBCbQZvdRdxzm7U3v
+2017-08-17 14:40:06.863 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcvqBCbQZvdRdxzm7U3v
+2017-08-17 14:44:13.647 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcV3dfyFKuA2_5Ti8U3v
+2017-08-17 14:44:13.710 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcV3dfyFKuA2_5Ti8U3v
+2017-08-17 14:46:59.008 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abc7Za4mGS3UfcZaX8U3v
+2017-08-17 14:46:59.068 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abc7Za4mGS3UfcZaX8U3v
+2017-08-17 14:49:07.974 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abc7whgjIapns8dHq9U3v
+2017-08-17 14:49:08.031 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abc7whgjIapns8dHq9U3v
+2017-08-17 14:49:38.539 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 14:54:52.601 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 14:54:52.604 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 14:55:51.575 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 14:56:56.078 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 14:57:01.168 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 14:59:03.527 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcT-bW8O3E0s6G8H-U3v
+2017-08-17 14:59:03.585 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcT-bW8O3E0s6G8H-U3v
+2017-08-17 14:59:14.081 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 14:59:59.753 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 15:00:37.428 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 15:00:58.325 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 15:01:05.212 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 15:24:48.115 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcXfCbS7Zuny5obBfV3v
+2017-08-17 15:24:50.096 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcXfCbS7Zuny5obBfV3v
+2017-08-17 15:25:06.461 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 15:49:03.174 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abc5odeaYRciI8Uo_kV3v
+2017-08-17 15:49:05.175 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abc5odeaYRciI8Uo_kV3v
+2017-08-17 15:49:15.102 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 15:49:49.820 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 15:49:54.071 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 15:54:14.016 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  429
+2017-08-17 15:54:20.490 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  445
+2017-08-17 16:02:51.410 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcs8-opf3mLl5CCioV3v
+2017-08-17 16:02:53.519 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcs8-opf3mLl5CCioV3v
+2017-08-17 16:03:07.314 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  445
+2017-08-17 16:03:27.253 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  445
+2017-08-17 16:03:37.806 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  445
+2017-08-17 16:34:58.551 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abc8BivZ3dRHseC7EvV3v
+2017-08-17 16:35:00.691 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abc8BivZ3dRHseC7EvV3v
+2017-08-17 16:35:09.193 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  445
+2017-08-17 16:36:44.055 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  445
+2017-08-17 16:37:06.936 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  445
+2017-08-17 16:37:12.230 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  445
+2017-08-17 17:10:33.857 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcqXJawWgcTv-ZnODV3v
+2017-08-17 17:10:36.003 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcqXJawWgcTv-ZnODV3v
+2017-08-17 17:10:52.783 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  445
+2017-08-17 17:11:15.525 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  445
+2017-08-17 17:15:07.776 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  445
+2017-08-17 17:15:11.915 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  445
+2017-08-17 17:24:15.505 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcqWld4PXTIxh21WGV3v
+2017-08-17 17:24:17.535 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcqWld4PXTIxh21WGV3v
+2017-08-17 17:24:26.565 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  445
+2017-08-17 17:24:35.371 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  444
+2017-08-17 17:24:39.989 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  444
+2017-08-17 17:25:56.784 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  444
+2017-08-17 17:26:10.394 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  700
+2017-08-17 17:26:23.392 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  700
+2017-08-17 17:27:20.502 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  700
+2017-08-17 17:27:38.071 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  700
+2017-08-17 17:34:32.701 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcUo8-oerixL-9HhJV3v
+2017-08-17 17:34:34.956 ERROR org.apache.http.client.HttpClient - key:JSESSIONID  value:abcUo8-oerixL-9HhJV3v
+2017-08-17 17:34:42.754 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  700
+2017-08-17 17:35:07.338 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  700
+2017-08-17 17:35:17.566 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  700
+2017-08-17 17:35:22.516 ERROR com.thit.tibdm.NettyTransmission.BomDecoder - ======转发前的车号是  700

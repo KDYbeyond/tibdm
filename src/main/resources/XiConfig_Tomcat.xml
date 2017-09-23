@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lili (thit) -->
+<Instance Name="XITIEAM" Layer="Configuration File">
+	<!--系统说明-->
+	<SystemInfo Name="系统说明(下面的产品编码,平台版本编号不允许改变">
+		<Info Name="产品名称（中文）" PersistName="ProductFullName">清软英泰应用支撑平台模板系统</Info>
+		<Info Name="产品简称称（英文）" PersistName="ProductShortName">XITIEAM</Info>
+		<Info Name="产品代码（数字）" PersistName="ProductNo">6</Info>
+		<Info Name="企业全称（中文）" PersistName="UserFullName">企业全称（中文）</Info>
+		<Info Name="企业简称（中/英文）" PersistName="UserName">企业简称（中/英文）</Info>
+		<Info Name="企业编码（8 ASCII，数字）" PersistName="UserCode">企业编码（8 ASCII，数字）</Info>
+		<Info Name="平台版本编号（数字,包括主版本.次版本）" PersistName="Version">1.1</Info>
+		<Info Name="注册码验证版本编号（数字,暂设为1）" PersistName="RegisterValidateVersion">注册码验证版本编号</Info>
+		<Info Name="脚本版本编号（数字）" PersistName="XiplVersion">脚本版本编号</Info>
+	</SystemInfo>
+	<!--脚本配置文件-->
+	<XIPL Name="XIPL-0 脚本配置文件 (下面File中带PersistName的字段内容不允许修改) ">
+		<File Name="业务层XIPL" PersistName="XiBizFile">../tibdm/XIPL/Biz</File>
+		<File Name="数据层XIPL" PersistName="XiDataFile">../tibdm/XIPL/Data</File>
+		<File Name="显示层XIPL" PersistName="XiDispFile">../tibdm/XIPL/UIScript</File>
+		<File Name="业务对显示命令XIPL" PersistName="XiBizDispCommandFile">../tibdm/XIPL/BizDispCommand</File>
+		<File Name="显示对业务命令XIPL" PersistName="XiDispBizCommandFile">../tibdm/XIPL/DispBizCommand</File>
+		<File Name="业务层功能树XIPL" PersistName="XiModuleBizTreeFile">../tibdm/XIPL/ModuleBizTree</File>
+		<File Name="临时目录" PersistName="XiRealTempFilePath">../XiTempFilePath/</File>
+		<File Name="临时目录" PersistName="XiVirTempFilePath">XiTempFilePath/</File>
+		<File Name="模板文件路径" PersistName="XiTempFileModelPath">AppModel</File>
+		<!--平台使用的公用脚本-->
+		<File Name="平台XIPL" PersistName="XiPlatFormFile">../systemXIPL/XiPlatform</File>
+		<File Name="平台函数XIPL" PersistName="XiPlatFunLibFile">../systemXIPL/platFunLib</File>
+		<File Name="显示层逻辑XIPL" PersistName="XiDispLogicFile">../systemXIPL/DispLogic</File>
+		<File Name="错误信息XIPL" PersistName="XiErrorFile">../systemXIPL/Demo_01000001_Error</File>
+		<File Name="日志文件" PersistName="LogFile">c:/TXILog/TXILog_tibdm/log.txt</File>
+		<!--平台使用的定制化脚本文件及目录-->
+		<File Name="定制化脚本文件目录" PersistName="CustomizeFilePath">../systemXIPL/customize/</File>
+		<File Name="辅助显示控件脚本" PersistName="AssXiDispLogicFile">../systemXIPL/customize/AssDispLogic</File>
+	</XIPL>
+	<!--外系统接口-->
+	<OuterSystemSet>
+		<!-- 外系统自动登陆方式：0或空：无; 1：SAP SSO; 2:Enssence_SSO-->
+		<OuterSystem Name="外系统自动登陆方式" PersistName="XiOuterSystemAutoLoginMode">1</OuterSystem>
+		<!--外部系统单点登录类名，通过该类可以实现本系统与外部系统的单点登录的集成-->
+		<OuterSystem name="外部系统单点登录类名" PersistName="OuterSystemSSOClassName">com.outer.sso.client.TXIOuterSSOClientBase</OuterSystem>
+		<OuterSystem Name="单点登录服务器登录的url" PersistName="XiOuterSystemSSOLoginUrl"/>
+		<OuterSystem Name="单点登录服务器退出登录的url" PersistName=" XiOuterSystemSSOLogoutUrl"/>
+		<OuterSystem Name="外系统传过来的token变量名" PersistName="XiOuterSystemTokenName"/>
+		<OuterSystem Name="外系统自动登陆业务框架" PersistName="XiOuterSystemAutoLoginFrame">Login</OuterSystem>
+		<OuterSystem Name="外系统自动登陆业务序列" PersistName="XiOuterSystemAutoLoginBizCmd">XiGuestAutoLogin</OuterSystem>
+	</OuterSystemSet>
+	<!--设置日期格式-->
+	<DateFormatSet Name="日期格式设置">
+		<DateFormat name="日期格式" PersistName="DateFormat">yyyy-MM-dd</DateFormat>
+		<!--yyyy-MM-dd HH:mm:ss-->
+		<DateTimeFormat name="日期时间格式" PersistName="DateTimeFormat">yyyy-MM-dd HH:mm:ss</DateTimeFormat>
+	</DateFormatSet>
+	<!--简单开关设置-->
+	<SimpleSwitchSet Name="简单开关设置">
+		<!--设置口令加密开关:1或无 :加密; 0 :不加密-->
+		<EncryptPasswdSwitch Name="加密口令开关.1或无 :加密; 0 :不加密" PersistName="EncryptPasswdSwitch">1</EncryptPasswdSwitch>
+		<!--设置测试开关:0或无:非测试状态;1:测试状态-->
+		<TestSwitch Name="测试开关" PersistName="TestSwitch">1</TestSwitch>
+		<!--设置跟踪轨迹开关: 0或无: 不设置;  1:设置(会影响效率)-->
+		<TestTrackSwitch Name="自动跟踪命令开关" PersistName="TestTrackSwitch">1</TestTrackSwitch>
+		<!--设置自动更新脚本开关: 0或无: 不自动更新;  1:自动更新(会影响效率)-->
+		<TestAutoUpdateXiplSwitch Name="自动更新脚本开关" PersistName="TestAutoUpdateXiplSwitch">1</TestAutoUpdateXiplSwitch>
+		<!--设置权限:1 :有权限; 0 :无权限-->
+		<AuthoritySwitch Name="权限开关" PersistName="AuthoritySwitch">0</AuthoritySwitch>
+		<!--设置预警开关（针对带开关的预警逻辑）:1 :有预警; 0 :无预警,缺省为1-->
+		<PreAlarmSwitch Name="预警开关" PersistName="PreAlarmSwitch">1</PreAlarmSwitch>
+		<!--设置调试开关:0或无:非调试状态;1:调试状态-->
+		<DebugSwitch Name="测试开关" PersistName="DebugSwitch">1</DebugSwitch>
+	</SimpleSwitchSet>
+	<!--设置查询页的控制参数-->
+	<PageSizeSet Name="设置查询页的控制参数">
+		<Search Name="属性列表页的大小" PersistName="PropertyPageSize">1000</Search>
+		<Search Name="资源列表页的大小" PersistName="ResourcePageSize">1000</Search>
+		<Search Name="任务列表页的大小" PersistName="TaskPageSize">1000</Search>
+		<Search Name="缺省列表页的大小" PersistName="DefaultPageSize">1000</Search>
+	</PageSizeSet>
+	<!--设置日志级别-->
+	<LogLevel Name="日志级别" PersistName="log.level">1111</LogLevel>
+	<!-- 设置数据库 -->
+	<DBSET Name="设置数据库">
+		<DBSrvName Name="数据库服务器名（包括机器名、实例名）" PersistName="DBSrvName">数据库服务器名（包括机器名、实例名）</DBSrvName>
+		<!-- SQLSERVER, Oracle805, Oracle8i -->
+		<DBSrvDBName Name="数据库名称（参见5的编码规则）" PersistName="DBSrvDBName">ORACLE</DBSrvDBName>
+		<!-- 连接池列表 THPOOL OTHERPOOL -->
+		<PoolList Name="连接池列表" PersistName="PoolList">RDB_TIBDM  CASSANDRA_TIBDM</PoolList>
+		<!-- 缺省连接 -->
+		<DefaultPool Name="缺省连接" PersistName="DefaultPool">RDB_TIBDM</DefaultPool>
+		<DBPool Name="能源关系数据库">
+			<DataSource Name="数据源" PersistName="pool.RDB_TIBDM.datasource">true</DataSource>
+			<Driver Name="Oracle805驱动程序" PersistName="pool.RDB_TIBDM.driver">oracle.jdbc.driver.OracleDriver</Driver>
+			<URL Name="URL" PersistName="pool.RDB_TIBDM.url">jdbc:oracle:thin:@192.168.8.183:1521:tyemis</URL>
+			<User Name="用户名" PersistName="pool.RDB_TIBDM.user">xitieams</User>
+			<Password Naame="口令" PersistName="pool.RDB_TIBDM.password">xitieams</Password>
+		</DBPool>
+		<DBPool Name="能源cassandra数据库">
+			<DataSource Name="数据源" PersistName="pool.CASSANDRA_TIBDM.datasource">false</DataSource>
+			<Driver Name="Oracle805驱动程序" PersistName="pool.CASSANDRA_TIBDM.driver">org.apache.cassandra.cql.jdbc.CassandraDriver</Driver>
+			<URL Name="URL" PersistName="pool.CASSANDRA_TIBDM.url">jdbc:cassandra://192.168.8.132:9160?version=2</URL>
+			<User Name="用户名" PersistName="pool.CASSANDRA_TIBDM.user"/>
+			<Password Name="口令" PersistName="pool.CASSANDRA_TIBDM.password"/>
+		</DBPool>
+	</DBSET>
+	<!--设置应用服务器-->
+	<AppSET>
+		<AppSrvName Name="应用服务器名" PersistName="AppSrvName">tomcat</AppSrvName>
+		<!--#Web 为工作流生成URL时需要用到-->
+		<AppSrv name="Session超时时间设置,单位为秒" PersistName="Session.TimeOut">14400</AppSrv>
+		<AppSrv Name="JNDI" PersistName="jndi.loginpage">logintieam.jsp</AppSrv>
+	</AppSET>
+	<!--设置注册相关信息-->
+	<RegisterSet>
+		<!--DemoSwitch name="演示开关" PersistName="DemoSwitch">1</DemoSwitch>
+		<Register name="注册码" PersistName="RegisterCode">5U5SX-938XE-7C3X7-Q8oER-7V764</Register-->
+		<!--Register name="注册码" PersistName="RegisterCode">5U4L6-AVAGV-0AABC-08Y20-7oBIG</Register-->
+	</RegisterSet>
+	<UserSelfDefineInfo>
+	</UserSelfDefineInfo>
+	<!--大数据相关设置-->
+	<TiBigDBSet>
+		<TiBigDBSet Name="获取实时大数据实现类配置" PersistName="Tibdm_RealTimeData_ImplClass">com.thit.tibdm.imdb.bridge.impl.TXIRedisImpl</TiBigDBSet>
+		<TiBigDBSet Name="获取分段大数据实现类配置" PersistName="Tibdm_PeriodsData_ImplClass">com.thit.tibdm.db.bridge.impl.TXICassandraV2Impl</TiBigDBSet>
+	</TiBigDBSet>
+</Instance>

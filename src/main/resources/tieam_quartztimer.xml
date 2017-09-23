@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="GB2312"?>
+<XiPlatQuartzTimer>
+	<QuartzTimerJob name="定时执行数据统计任务">
+		<!-- 开关,0或缺省 关闭， 1打开 -->
+		<Switch>1</Switch>
+		<!-- 业标识 -->
+		<IdentityName>testJob</IdentityName>
+		<!-- 作业组 -->
+		<IdentityGroup>group2</IdentityGroup>
+		<!-- Java实现类 -->
+		<ImpClass>com.thit.tibdm.calculation.job.CalculationTimer</ImpClass>
+		<!-- 定时条件 每天的12点0分5秒执行一次：10 0 12 * * ? -->
+		<Cron>0 5 0 * * ?</Cron>
+		<!-- 自定义输入参数 -->
+		<InputParams>
+			<param1/>
+			<param2/>
+		</InputParams>
+	</QuartzTimerJob>
+
+	<QuartzTimerJob name="定时执行数据统计任务扫描全部看是否有漏网之鱼">
+		<!-- 开关,0或缺省 关闭， 1打开 -->
+		<Switch>1</Switch>
+		<!-- 业标识 -->
+		<IdentityName>calcu</IdentityName>
+		<!-- 作业组 -->
+		<IdentityGroup>group3</IdentityGroup>
+		<!-- Java实现类 -->
+		<ImpClass>com.thit.tibdm.calculation.job.AllDataJob</ImpClass>
+		<!-- 定时条件 每天的12点0分5秒执行一次：10 0 12 * * ? -->
+		<Cron>0 30 0 * * ?</Cron>
+		<!-- 自定义输入参数 -->
+		<InputParams>
+			<param1/>
+			<param2/>
+		</InputParams>
+	</QuartzTimerJob>
+
+	<QuartzTimerJob name="定时执行MachineTimeJob数据降频任务">
+		<!-- 开关,0或缺省 关闭， 1打开 -->
+		<Switch>1</Switch>
+		<!-- 业标识 -->
+		<IdentityName>reduce1</IdentityName>
+		<!-- 作业组 -->
+		<IdentityGroup>group4</IdentityGroup>
+		<!-- Java实现类 -->
+		<ImpClass>com.thit.tibdm.db.bridge.job.MachineTimeJob</ImpClass>
+		<!-- 定时条件 每天的12点0分5秒执行一次：10 0 12 * * ? -->
+		<Cron>0/60 * * * * ?</Cron>
+		<!-- 自定义输入参数 -->
+		<InputParams>
+			<param1/>
+			<param2/>
+		</InputParams>
+	</QuartzTimerJob>
+
+	<QuartzTimerJob name="定时执行MachineNoTimeJob数据降频任务">
+		<!-- 开关,0或缺省 关闭， 1打开 -->
+		<Switch>1</Switch>
+		<!-- 业标识 -->
+		<IdentityName>reduce2</IdentityName>
+		<!-- 作业组 -->
+		<IdentityGroup>group5</IdentityGroup>
+		<!-- Java实现类 -->
+		<ImpClass>com.thit.tibdm.db.bridge.job.MachineNoTimeJob</ImpClass>
+		<!-- 定时条件 每天的12点0分5秒执行一次：10 0 12 * * ? -->
+		<Cron>0,10,20,30,40,50 * * * * ?</Cron>
+		<!-- 自定义输入参数 -->
+		<InputParams>
+			<param1/>
+			<param2/>
+		</InputParams>
+	</QuartzTimerJob>
+
+	<QuartzTimerJob name="定时执行LineTimeJob数据降频任务">
+		<!-- 开关,0或缺省 关闭， 1打开 -->
+		<Switch>1</Switch>
+		<!-- 业标识 -->
+		<IdentityName>reduce3</IdentityName>
+		<!-- 作业组 -->
+		<IdentityGroup>group6</IdentityGroup>
+		<!-- Java实现类 -->
+		<ImpClass>com.thit.tibdm.db.bridge.job.LineTimeJob</ImpClass>
+		<!-- 定时条件 每天的12点0分5秒执行一次：10 0 12 * * ? -->
+		<Cron>0/60 * * * * ?</Cron>
+		<!-- 自定义输入参数 -->
+		<InputParams>
+			<param1/>
+			<param2/>
+		</InputParams>
+	</QuartzTimerJob>
+
+	<QuartzTimerJob name="定时执行LineNoTimejob数据降频任务">
+		<!-- 开关,0或缺省 关闭， 1打开 -->
+		<Switch>1</Switch>
+		<!-- 业标识 -->
+		<IdentityName>reduce4</IdentityName>
+		<!-- 作业组 -->
+		<IdentityGroup>group7</IdentityGroup>
+		<!-- Java实现类 -->
+		<ImpClass>com.thit.tibdm.db.bridge.job.LineNoTimeJob</ImpClass>
+		<!-- 定时条件 每天的12点0分5秒执行一次：10 0 12 * * ? -->
+		<Cron>0/60 * * * * ?</Cron>
+		<!-- 自定义输入参数 -->
+		<InputParams>
+			<param1/>
+			<param2/>
+		</InputParams>
+	</QuartzTimerJob>
+
+	<QuartzTimerJob name="定时执行LineNoTimejob数据降频任务">
+		<!-- 开关,0或缺省 关闭， 1打开 -->
+		<Switch>1</Switch>
+		<!-- 业标识 -->
+		<IdentityName>online</IdentityName>
+		<!-- 作业组 -->
+		<IdentityGroup>group8</IdentityGroup>
+		<!-- Java实现类 -->
+		<ImpClass>com.thit.tibdm.db.bridge.job.OnlineJob</ImpClass>
+		<!-- 定时条件 每天的12点0分5秒执行一次：10 0 12 * * ? -->
+		<Cron>0/10 * * * * ?</Cron>
+		<!-- 自定义输入参数 -->
+		<InputParams>
+			<param1/>
+			<param2/>
+		</InputParams>
+	</QuartzTimerJob>
+</XiPlatQuartzTimer>

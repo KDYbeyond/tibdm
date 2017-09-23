@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jdom:jdom:VERSION:1.0-VERSION">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jdom/jdom/1.0-VERSION/jdom-1.0-VERSION-VERSION.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jdom/jdom/1.0-VERSION/jdom-1.0-VERSION-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jdom/jdom/1.0-VERSION/jdom-1.0-VERSION-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.sf.json:json-lib-2.4-jdk15:jdk15:1.0-VERSION">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/json/json-lib-2.4-jdk15/1.0-VERSION/json-lib-2.4-jdk15-1.0-VERSION-jdk15.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/json/json-lib-2.4-jdk15/1.0-VERSION/json-lib-2.4-jdk15-1.0-VERSION-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/json/json-lib-2.4-jdk15/1.0-VERSION/json-lib-2.4-jdk15-1.0-VERSION-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

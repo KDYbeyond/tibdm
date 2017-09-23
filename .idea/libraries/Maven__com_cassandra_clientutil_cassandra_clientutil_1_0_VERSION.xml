@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.cassandra.clientutil:cassandra-clientutil:1.0-VERSION">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/cassandra/clientutil/cassandra-clientutil/1.0-VERSION/cassandra-clientutil-1.0-VERSION.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/cassandra/clientutil/cassandra-clientutil/1.0-VERSION/cassandra-clientutil-1.0-VERSION-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/cassandra/clientutil/cassandra-clientutil/1.0-VERSION/cassandra-clientutil-1.0-VERSION-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

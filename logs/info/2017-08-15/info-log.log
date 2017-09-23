@@ -1,0 +1,31 @@
+2017-08-15 10:58:46.916 INFO  com.datastax.driver.core.Native - Could not load JNR C Library, native system calls through this library will not be available (set this logger level to DEBUG to see the full stack trace).
+2017-08-15 10:58:46.922 INFO  com.datastax.driver.core.ClockFactory - Using java.lang.System clock to generate timestamps.
+2017-08-15 10:58:49.644 INFO  com.datastax.driver.core.policies.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-08-15 10:58:49.647 INFO  com.datastax.driver.core.Cluster - New Cassandra host /192.168.8.108:9042 added
+2017-08-15 11:12:17.305 INFO  com.datastax.driver.core.Native - Could not load JNR C Library, native system calls through this library will not be available (set this logger level to DEBUG to see the full stack trace).
+2017-08-15 11:12:17.313 INFO  com.datastax.driver.core.ClockFactory - Using java.lang.System clock to generate timestamps.
+2017-08-15 11:12:19.420 INFO  com.datastax.driver.core.policies.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-08-15 11:12:19.425 INFO  com.datastax.driver.core.Cluster - New Cassandra host /192.168.8.108:9042 added
+2017-08-15 11:13:05.544 INFO  com.datastax.driver.core.Native - Could not load JNR C Library, native system calls through this library will not be available (set this logger level to DEBUG to see the full stack trace).
+2017-08-15 11:13:05.549 INFO  com.datastax.driver.core.ClockFactory - Using java.lang.System clock to generate timestamps.
+2017-08-15 11:13:07.616 INFO  com.datastax.driver.core.policies.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-08-15 11:13:07.620 INFO  com.datastax.driver.core.Cluster - New Cassandra host /192.168.8.106:9042 added
+2017-08-15 11:13:07.621 INFO  com.datastax.driver.core.Cluster - New Cassandra host /192.168.8.109:9042 added
+2017-08-15 11:15:52.676 INFO  com.datastax.driver.core.Native - Could not load JNR C Library, native system calls through this library will not be available (set this logger level to DEBUG to see the full stack trace).
+2017-08-15 11:15:52.682 INFO  com.datastax.driver.core.ClockFactory - Using java.lang.System clock to generate timestamps.
+2017-08-15 11:15:54.710 INFO  com.datastax.driver.core.policies.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-08-15 11:15:54.714 INFO  com.datastax.driver.core.Cluster - New Cassandra host /192.168.8.106:9042 added
+2017-08-15 11:15:54.714 INFO  com.datastax.driver.core.Cluster - New Cassandra host /192.168.8.109:9042 added
+2017-08-15 11:24:44.854 INFO  com.datastax.driver.core.Native - Could not load JNR C Library, native system calls through this library will not be available (set this logger level to DEBUG to see the full stack trace).
+2017-08-15 11:24:44.859 INFO  com.datastax.driver.core.ClockFactory - Using java.lang.System clock to generate timestamps.
+2017-08-15 11:24:46.911 INFO  com.datastax.driver.core.policies.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-08-15 11:24:46.915 INFO  com.datastax.driver.core.Cluster - New Cassandra host /192.168.8.108:9042 added
+2017-08-15 11:25:35.069 INFO  com.datastax.driver.core.Native - Could not load JNR C Library, native system calls through this library will not be available (set this logger level to DEBUG to see the full stack trace).
+2017-08-15 11:25:35.075 INFO  com.datastax.driver.core.ClockFactory - Using java.lang.System clock to generate timestamps.
+2017-08-15 11:25:37.236 INFO  com.datastax.driver.core.policies.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-08-15 11:25:37.239 INFO  com.datastax.driver.core.Cluster - New Cassandra host /192.168.8.106:9042 added
+2017-08-15 11:25:37.239 INFO  com.datastax.driver.core.Cluster - New Cassandra host /192.168.8.109:9042 added
+2017-08-15 11:26:16.468 INFO  com.datastax.driver.core.Native - Could not load JNR C Library, native system calls through this library will not be available (set this logger level to DEBUG to see the full stack trace).
+2017-08-15 11:26:16.473 INFO  com.datastax.driver.core.ClockFactory - Using java.lang.System clock to generate timestamps.
+2017-08-15 11:26:18.522 INFO  com.datastax.driver.core.policies.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2017-08-15 11:26:18.527 INFO  com.datastax.driver.core.Cluster - New Cassandra host /192.168.8.108:9042 added
